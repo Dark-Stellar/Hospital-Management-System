@@ -581,7 +581,6 @@ for a doctor, an administrator, and a nurse.
 
 Planned improvements: ACLs for inter-department filtering, a redundant
 backbone switch, SSH management, port security, and a syslog server.
-
 ## 11. Repository Layout
 
 ```
@@ -1198,38 +1197,3 @@ for a doctor, an administrator, and a nurse.
 
 Planned improvements: ACLs for inter-department filtering, a redundant
 backbone switch, SSH management, port security, and a syslog server.
-
-## 11. Repository Layout
-
-```
-.
-├── README.md
-├── LICENSE
-├── .gitignore
-├── .gitattributes
-├── Hospital_Management_System.pkt
-└── docs/
-    └── screenshots/
-        ├── topology.png
-        ├── routing-table.png
-        ├── dns-nslookup.png
-        ├── ftp-login.png
-        ├── web-portal.png
-        ├── email-test.png
-        └── vlan-brief.png
-```
-
-## 12. How to Open the Project
-
-1. Install Cisco Packet Tracer (free with a Cisco Networking Academy account).
-2. Clone the repository:
-```
-   git clone https://github.com/<your-username>/<repo-name>.git
-```
-3. Open `Hospital_Management_System.pkt` in Packet Tracer.
-4. Wait for OSPF to converge (about a minute), then run the tests in
-   section 8.
-
-## 13. License
-
-MIT. See LICENSE.
